@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(17, 102, 181, 0);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(118, 64, 218) !important;
+    text-shadow: 0px 0px 12px rgb(4, 4, 1);
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(181, 104, 179) !important;
+    text-shadow: 0px 0px 12px rgb(73, 73, 39) !important;
+    
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 2px solid;
+    border-color: rgb(253, 15, 15);
+    border-radius: 10%;
+    margin: 2%;
+    padding: 2%;
+    text-align: justify;
+    background-color: #efe7e7;
+}
+nav{
+    background-color: rgb(165, 149, 165);
+}
+header nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    /* text-align: center;
+    justify-content: center;
+    display: flex; */
+    
+}
+header nav ul li a{
+    color: rgb(250, 247, 247);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+section{
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+h6{
+    padding: 1%;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgb(36, 36, 26);
+}
+button{
+    color: black;
+}
+big b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(181, 104, 179) !important;
+    text-shadow: 0px 0px 12px rgb(73, 73, 39) !important;
+    background:#f2eded;
+}
+.animated-shadow{
+    animation: shadow-grow 3s ease-in-out infinite;
+    cursor: hover;
+    /* text-shadow: 0px 0px 12px rgb(32, 9, 247) !important; */
+}
+@keyframes shadow-grow {
+    0% {
+      text-shadow: 0 0 0px #000;
+    }
+    100% {
+      text-shadow: 5px 5px 20px #6a6e94, -5px -5px 20px #1e33cd, 5px -5px 20px #0000ff, -5px 5px 20px #0b36e3;
+    }
+}
+
+.contact1 img{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+.contact2 img{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+.contact3 img{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.footer{
+    color: black;
+    text-shadow: 0px 0px 12px rgb(73, 73, 39);
+}
+ol li{
+    list-style: none;;
+}
