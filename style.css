@@ -16,9 +16,28 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(181, 104, 179) !important;
-    text-shadow: 0px 0px 12px rgb(73, 73, 39) !important;
+    color: rgb(74, 37, 30) !important;
+    text-shadow: 0px 0px 12px rgb(24, 24, 24) !important;
+    /* padding: 1rem; */
     
+}
+.project-block{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 2px solid;
+    border-color: rgb(253, 15, 15);
+    border-top: 5px solid red;   /* Thicker top border */
+    border-right: 2px dashed blue;  /* Dashed and thinner right border */
+    border-bottom: 3px dotted green; /* Dotted bottom border */
+    border-left: 1px solid black;   /* Thinner left border */
+    border-radius: 10%;
+    margin: 2%;
+    padding: 2%;
+    text-align: justify;
+    background-color: #efe7e7;
 }
 p{
     display: flex;
@@ -27,7 +46,11 @@ p{
     margin-left: 1rem;
     margin-right: 1rem;
     border: 2px solid;
-    border-color: rgb(253, 15, 15);
+    /* border-color: rgb(253, 15, 15); */
+    border-top: 5px solid red;   /* Thicker top border */
+    border-right: 2px dashed blue;  /* Dashed and thinner right border */
+    border-bottom: 3px dotted green; /* Dotted bottom border */
+    border-left: 1px solid black;   /* Thinner left border */
     border-radius: 10%;
     margin: 2%;
     padding: 2%;
@@ -61,11 +84,7 @@ img{
     border-radius: 50%;
     /* text-align: center; */
 }
-h6{
-    padding: 1%;
-    text-align: center;
-    text-shadow: 0px 0px 12px rgb(36, 36, 26);
-}
+
 button{
     color: black;
 }
@@ -77,6 +96,8 @@ big b{
     color: rgb(181, 104, 179) !important;
     text-shadow: 0px 0px 12px rgb(73, 73, 39) !important;
     background:#f2eded;
+    /* height: 100px;
+    width: 100px; */
 }
 .animated-shadow{
     animation: shadow-grow 3s ease-in-out infinite;
@@ -88,7 +109,7 @@ big b{
       text-shadow: 0 0 0px #000;
     }
     100% {
-      text-shadow: 5px 5px 20px #6a6e94, -5px -5px 20px #1e33cd, 5px -5px 20px #0000ff, -5px 5px 20px #0b36e3;
+      text-shadow: 5px 5px 20px #6a6e94, -5px -5px 20px #5f6699, 5px -5px 20px #4949b0, -5px 5px 20px #0b36e3;
     }
 }
 
@@ -111,7 +132,32 @@ big b{
 .footer{
     color: black;
     text-shadow: 0px 0px 12px rgb(73, 73, 39);
+    margin-top: 1rem;
 }
 ol li{
-    list-style: none;;
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+}
+.pub1, .pub2 ,.pub3{
+    flex: 1; /* Distribute space equally */
+    margin: 10px;
+    padding: 10px;
+}
+.project1, .project2, .project3, .project4{
+    flex: 1; /* Distribute space equally */
+    margin: 10px;
+    padding: 2rem;
+}
+.project1 p, .project2 p, .project3 p, .project4 p{
+    /* padding: 2rem; */
+    flex: 1;
+}
+h6{
+    padding: 1%;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgb(36, 36, 26);
 }
